@@ -12,14 +12,10 @@ foreach ($services as $service => $value)
         fclose($con);
     }
 }
-
 echo "<br>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>Host: " . $ip . "<br>Open Ports: ";
 for ($i=0; $i < count($openports); $i++) { 
 	echo $openports[$i] . " | ";
 } echo "
 <br>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>";
-
 }
-
-
 ?>
