@@ -1,6 +1,6 @@
 # Multiple port scanning using array with PHP.
 
-How to use port-scanner : 
+How to use port-scanner : \n
     Type ip or domain name in the array.
 
 Example : 
